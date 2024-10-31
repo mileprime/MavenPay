@@ -1,0 +1,101 @@
+/* General Styles for About Page */
+.about {
+  background: linear-gradient(to bottom right, #e480ff, #4625e0);
+  padding: 4rem 0;
+}
+
+.about h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff; /* White for gradient background */
+  text-align: center; /* Centered header */
+}
+
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #ffffff; /* White for gradient background */
+  text-align: center; /* Centered paragraph */
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 4rem 0;
+  background-color: #f9f9f9;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4625e0; /* Dark purple for headings */
+  text-align: center; /* Centered header */
+}
+
+.card {
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Founder Section */
+.founder {
+  padding: 4rem 0;
+}
+
+.founder h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4625e0; /* Dark purple for headings */
+  text-align: center; /* Centered header */
+}
+
+.founder p {
+  font-size: 1.1rem;
+  text-align: center; /* Centered paragraph */
+}
+
+/* Values List */
+.list-values {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: center; /* Centered list */
+}
+
+.list-values li {
+  font-size: 1rem;
+  color: #6c6c6c; /* Gray color for list items */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .about h1 {
+    font-size: 2rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .founder h2 {
+    font-size: 1.5rem;
+  }
+
+  .founder p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about h1 {
+    font-size: 1.8rem;
+  }
+
+  .about p,
+  .founder p {
+    font-size: 0.9rem;
+  }
+}

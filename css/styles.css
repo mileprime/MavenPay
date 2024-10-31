@@ -1,0 +1,245 @@
+/* General Reset and Typography */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #0f0a1e;
+  background-color: #ffffff;
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Utility Classes */
+.text-purple {
+  color: #4625e0;
+}
+
+.btn-animate {
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.btn-animate:hover {
+  transform: translateY(-2px);
+  background-color: #e480ff;
+}
+
+.animate-fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.animate-fade-in-delay {
+  opacity: 0;
+  animation: fadeIn 1.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Navbar */
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #4625e0;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-brand .logo {
+  height: 50px;
+  transition: transform 0.2s;
+}
+
+.navbar-brand .logo:hover {
+  transform: scale(1.05);
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  margin: 0 0.5rem;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #e480ff !important;
+}
+
+.btn-toggle {
+  color: #ffffff;
+  background-color: #e480ff;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn-toggle:hover {
+  background-color: #4625e0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(45deg, #4625e0, #e480ff);
+  color: #ffffff;
+  padding: 4rem 0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn-primary {
+  padding: 0.75rem 1.5rem;
+  background-color: #ffffff;
+  color: #4625e0;
+  border: none;
+  font-weight: 600;
+}
+
+.hero .btn-primary:hover {
+  background-color: #0f0a1e;
+  color: #ffffff;
+}
+
+/* About Section */
+.about {
+  background-color: #f9f9f9;
+  padding: 4rem 0;
+}
+
+.about h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #6c6c6c;
+}
+
+/* Services Section */
+.services {
+  padding: 4rem 0;
+}
+
+.service-card {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  width: 50px;
+  transition: transform 0.2s;
+}
+
+.service-icon:hover {
+  transform: scale(1.1);
+}
+
+.service-card h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  color: #4625e0;
+}
+
+/* CTA Section */
+.cta {
+  background: linear-gradient(45deg, #e480ff, #4625e0);
+  color: #ffffff;
+  padding: 3rem 0;
+}
+
+.cta h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.cta .btn-secondary {
+  background-color: #ffffff;
+  color: #4625e0;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-weight: 600;
+}
+
+.cta .btn-secondary:hover {
+  background-color: #0f0a1e;
+  color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #0f0a1e;
+  color: #ffffff;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+}
+
+footer a {
+  color: #e480ff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color: #ffffff;
+}
+
+footer .social-links a {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  color: #e480ff;
+}
+
+footer .social-links a:hover {
+  color: #ffffff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .service-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .cta h2 {
+    font-size: 1.75rem;
+  }
+}

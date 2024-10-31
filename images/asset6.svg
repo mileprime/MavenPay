@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 445.54 495.29">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-3 {
+        stroke-width: 0px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-3" points="28.3 145.05 0 191.04 50.28 275.89 113.21 382.08 210.68 382.08 72.58 145.05 28.3 145.05"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <polygon class="cls-3" points="109.68 0 63.68 81.37 105.34 81.37 284.02 382.08 333.58 382.08 357.32 339.63 162.74 0 109.68 0"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <polygon class="cls-3" points="283.02 0 237.03 81.37 278.69 81.37 394.28 275.89 445.54 191.04 336.09 0 283.02 0"/>
+    </clipPath>
+    <clipPath id="clippath-3">
+      <polygon class="cls-3" points="28.3 382.08 0 382.08 0 428.08 39.83 495.29 113.21 495.29 113.21 451.81 72.58 382.08 28.3 382.08"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g>
+        <polygon class="cls-2" points="28.3 145.05 0 191.04 50.28 275.89 113.21 382.08 210.68 382.08 72.58 145.05 28.3 145.05"/>
+        <g class="cls-1">
+          <rect class="cls-3" x="0" y="145.05" width="210.68" height="237.03"/>
+        </g>
+      </g>
+      <g>
+        <polygon class="cls-2" points="109.68 0 63.68 81.37 105.34 81.37 284.02 382.08 333.58 382.08 357.32 339.63 162.74 0 109.68 0"/>
+        <g class="cls-4">
+          <rect class="cls-3" x="63.68" y="0" width="293.64" height="382.08"/>
+        </g>
+      </g>
+      <g>
+        <polygon class="cls-2" points="283.02 0 237.03 81.37 278.69 81.37 394.28 275.89 445.54 191.04 336.09 0 283.02 0"/>
+        <g class="cls-6">
+          <rect class="cls-3" x="237.03" width="208.51" height="275.89"/>
+        </g>
+      </g>
+      <g>
+        <polygon class="cls-2" points="28.3 382.08 0 382.08 0 428.08 39.83 495.29 113.21 495.29 113.21 451.81 72.58 382.08 28.3 382.08"/>
+        <g class="cls-5">
+          <rect class="cls-3" x="0" y="382.08" width="113.21" height="113.21"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

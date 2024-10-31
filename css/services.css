@@ -1,0 +1,50 @@
+/* General Styles for Services Page */
+.services {
+  padding: 4rem 0;
+}
+
+.services h1 {
+  font-size: 2.5rem;
+  color: #4625e0; /* Dark purple for headings */
+}
+
+.services p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #333; /* Dark text for readability */
+  text-align: center; /* Centered paragraph */
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #e0e0e0; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .services h1 {
+    font-size: 2rem;
+  }
+
+  .services p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .services h1 {
+    font-size: 1.8rem;
+  }
+
+  .services p {
+    font-size: 0.9rem;
+  }
+}

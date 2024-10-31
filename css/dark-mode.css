@@ -1,0 +1,31 @@
+body {
+  background-color: #0f0a1e;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #0f0a1e;
+}
+
+.hero {
+  background: linear-gradient(45deg, #e480ff, #4625e0);
+}
+
+.about,
+.services {
+  background-color: #181818;
+  color: #e0e0e0;
+}
+
+.service-card {
+  background-color: #222222;
+}
+
+.cta {
+  background: linear-gradient(45deg, #4625e0, #0f0a1e);
+}
+
+footer {
+  background-color: #181818;
+  color: #e0e0e0;
+}

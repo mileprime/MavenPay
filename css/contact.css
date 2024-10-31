@@ -1,0 +1,57 @@
+/* General Styles for Contact Page */
+.contact {
+  padding: 4rem 0;
+}
+
+.contact h1 {
+  font-size: 2.5rem;
+  color: #4625e0; /* Dark purple for headings */
+}
+
+.contact p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #333; /* Dark text for readability */
+  text-align: center; /* Centered paragraph */
+}
+
+/* Contact Information Section */
+.contact-info {
+  padding: 4rem 0;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  color: #4625e0; /* Dark purple for headings */
+}
+
+.contact-info a {
+  color: #4625e0; /* Dark purple for links */
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .contact h1 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact h1 {
+    font-size: 1.8rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+}
